@@ -1,6 +1,12 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "extends": ["@schematics/angular"],
   "schematics": {
+    "angular-only": {
+      "description": "Add schematics to the project.",
+      "factory": "./angular-only/index#angularOnly",
+      "schema": "./angular-only/schema.json"
+    },
     "angular-lodh-starter": {
       "description": "A blank schematic.",
       "factory": "./angular-lodh-starter/index#angularLodhStarter",
