@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "angular-lodh-starter": {
+      "description": "A blank schematic.",
+      "factory": "./angular-lodh-starter/index#angularLodhStarter",
+      "schema": "./angular-lodh-starter/schema.json"
+    }
+  }
+}
